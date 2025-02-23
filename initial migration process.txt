@@ -1,0 +1,22 @@
+at first for iniializing the alembic file use
+
+alembic init alembic
+
+then in alembic folder 
+1. open env.py
+2. import the base(declarative_base) from models
+        from models import base
+3. change this
+       target_metadata = base.metadata
+
+then in alembic.ini 
+        change
+sqlalchemy.url = postgresql+psycopg2://postgres:srk123@localhost/blog 
+this is the connection url + module which we use
+
+AFTER ALL THE ABOVE STEPS THAT ARE FINISHED 
+
+alembic revision --autogenerate -m "Initial migration"
+
+then 
+alembic upgrade head

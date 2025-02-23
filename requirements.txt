@@ -1,0 +1,12 @@
+fastapi
+sqlalchemy
+requests
+psycopg2
+passlib
+brcypt
+alembic
+psycopg2-binary
+python-jose
+jwt
+python-multipart
+datetime
