@@ -34,7 +34,8 @@ cd blog
 ### 2. Create a Virtual Environment
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+# On Windows use `venv\Scripts\activate`
+source venv/bin/activate  
 ```
 
 ### 3. Install Dependencies
