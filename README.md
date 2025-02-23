@@ -27,7 +27,7 @@ initial migration process.txt  # Notes on the initial migration process
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/srkthe27/Python_FastApi.git
 cd blog
 ```
 
